@@ -859,22 +859,6 @@ No workflow runs appear
 
 ---
 
-## 🎓 Interview Talking Points
-
-### 1. CI/CD Pipeline Design
-> "I implemented a multi-stage GitHub Actions workflow that automatically tests code on every commit and deploys to different environments based on the branch. The pipeline gates production deployments with automated tests."
-
-### 2. Docker Containerization
-> "I containerized the Node.js application using an optimized Alpine-based Dockerfile with layer caching, reducing image size and build time for faster deployments."
-
-### 3. Branch Strategy
-> "I implemented a GitFlow-inspired branch strategy where the dev branch triggers staging deployments and the main branch triggers production deployments, ensuring proper separation of concerns."
-
-### 4. Security Implementation
-> "I implemented GitHub Secrets for sensitive credentials like Docker Hub tokens, ensuring they're never exposed in logs or version control."
-
-### 5. Scalability Considerations
-> "The pipeline is designed to be easily extensible—additional stages can be added for integration tests, security scanning, or multi-cloud deployments."
 
 ---
 
